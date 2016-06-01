@@ -6,7 +6,8 @@
 #define MyAppURL "http://github.com/coreybutler/nvm"
 #define MyAppExeName "nvm.exe"
 #define MyIcon "bin\nodejs.ico"
-#define ProjectRoot "C:\Users\Corey\Documents\workspace\Applications\nvm"
+#define ProjectRoot ".\"
+;"C:\Users\Corey\Documents\workspace\Applications\nvm"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
