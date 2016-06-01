@@ -11,8 +11,7 @@ set version=%L:~24,-1%
 
 REM Get the version number from the core executable
 for /f "tokens=*" %%i in ('findstr /n . %GOPATH%\nvm.go ^| findstr ^NvmVersion^| findstr ^21^') do set L=%%i
-set goversion=%L:~19,-1%
-
+set goversion=%L:~24,-1%
 IF NOT %version%==%goversion% GOTO VERSIONMISMATCH
 
 SET DIST=%CD%\dist\%version%
